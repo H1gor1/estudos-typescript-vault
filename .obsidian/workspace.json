@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "de218d24e8e825e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "estudos-typescript-vault/Capítulo 2.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "estudos-typescript-vault/Capítulo 2.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "estudos-typescript-vault/Capítulo 2.md"
+                "file": "README.md"
               }
             }
           },
@@ -155,13 +168,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56e5bab6ff5f43ab",
+  "active": "06cb17f6569eb274",
   "lastOpenFiles": [
+    "estudos-typescript-vault/Capítulo 2.md",
+    "README.md",
     "estudos-typescript-vault/Estudos TypeScript.md",
     "estudos-typescript-vault/Capítulo 1.md",
     "Estudos Typescript/Capítulo 2.md",
-    "estudos-typescript-vault/Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
-    "estudos-typescript-vault/Capítulo 2.md",
+    "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
     "estudos-typescript-vault",
     "Estudos Typescript/Estudos TypeScript.md",
     "2024-09-07.md",

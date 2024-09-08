@@ -1,0 +1,1 @@
+Notas feitas usando obsidian do estudo de typescript a partir do livro "Guia prático de TypeScript"
