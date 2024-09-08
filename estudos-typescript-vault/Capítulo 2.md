@@ -79,3 +79,4 @@ let sentence: string = `Olá, meu nome é ${ nome }, eu tenho ${idade} anos.
 Métodos e propriedades mais utilizadas para trabalhar com strings
 
 ##### Length
+
