@@ -1,0 +1,1 @@
+Foi explicado sobre a transpilação do codigo typescript para o código javascript e foi explicado sobre o arquivo tsconfig.json e como configurar para o compilador não transpilar o código se houver erros.
