@@ -525,3 +525,5 @@ O type never não pode receber valor. A seguir você tem um exemplo demonstrando
 ![[Pasted image 20240909191009.png]]
 
 
+#### 2.5 Type assertions
+
