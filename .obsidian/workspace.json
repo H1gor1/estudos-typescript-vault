@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "905f74ffce753db3",
+        "id": "ec6f20c8146cd431",
         "type": "tabs",
         "children": [
           {
@@ -18,7 +18,13 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "905f74ffce753db3",
+        "type": "tabs",
+        "children": [
           {
             "id": "a85ed5800aea6f20",
             "type": "leaf",
@@ -29,8 +35,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5de69fadf1580aa0",
@@ -96,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
+                "file": "estudos-typescript-vault/Capítulo 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
+                "file": "estudos-typescript-vault/Capítulo 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf"
+                "file": "estudos-typescript-vault/Capítulo 2.md"
               }
             }
           },
@@ -153,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,7 +172,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08df1a8850512e38",
+  "active": "f4dc8069cfc4fa3b",
   "lastOpenFiles": [
     "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
     "estudos-typescript-vault/Capítulo 2.md",
