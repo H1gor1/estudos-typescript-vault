@@ -467,3 +467,61 @@ Resultado:
 
 #### 2.13 Void
 
+Define que uma função não terá retorno
+
+function log(): void { 
+	console.log('Sem retorno'); 
+}
+
+#### 2.14 Never
+
+Embora o type never tenha sido adicionado à versão 2.0 do TypeScript, ele é pouco conhecido pelos desenvolvedores. Esse type indica que algo nunca deve ocorrer. Para que você possa ter uma ideia de como utilizá-lo no seu dia a dia, vamos a alguns exemplos práticos.
+
+Nós podemos utilizá-lo em funções com exception:
+
+```
+function verificandoTipo(x: string | number): boolean {
+	if (typeof x === "string") {
+		return true;
+	} else if (typeof x === "number") {
+		return false;
+	}
+	return fail("Esse método não aceita esse tipo de type!");
+}
+
+function fail(message: string): never { trow new Error(message); }
+```
+
+Nesse exemplo, nós estamos recebendo via parâmetro um type union (string e número), que deve retornar um boolean. Caso seja passado um valor que não seja uma string ou um número, a chamada entra em uma outra função chamada fail, que retornará uma exceção.
+
+```
+verificandoTipo("teste String");
+verificandoTipo(10);
+let ativo = true;
+verificandoTipo(ativo);
+
+Resultado:
+//Ok
+//Ok
+// retorna uma exception com a mensagem: Esse método não aceita esse tipo de type!
+```
+
+Também podemos utilizá-lo em funções sem retorno:
+
+function Update(): never {
+	while(true) {
+		console.log("Carregando processos!");
+	}
+}
+
+Essa função é comum no desenvolvimento de jogos onde nós temos um método que funciona como um loop infinito, carregando todos os módulos de um game.
+
+*Diferença entre void e never*
+
+O type void pode receber o valor null , que indica ausência de um objeto, ou undefined , que indica a ausência de qualquer valor.
+
+O type never não pode receber valor. A seguir você tem um exemplo demonstrando os dois types como variáveis:
+
+![[Pasted image 20240909191009.png]]
+
+
