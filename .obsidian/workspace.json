@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "estudos-typescript-vault/Capítulo 2.md",
+                "file": "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "estudos-typescript-vault/Capítulo 2.md",
+                "file": "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "estudos-typescript-vault/Capítulo 2.md"
+                "file": "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf"
               }
             }
           },
@@ -166,10 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f4dc8069cfc4fa3b",
+  "active": "08df1a8850512e38",
   "lastOpenFiles": [
     "Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
     "estudos-typescript-vault/Capítulo 2.md",
+    "Sem título.md",
     "estudos-typescript-vault/!Estudos TypeScript.md",
     "estudos-typescript-vault/Capítulo 1.md",
     "README.md",
